@@ -1,6 +1,7 @@
 import QtQuick 2.15
-import Qt5Compat.GraphicalEffects
-// import QtGraphicalEffects 1.15
+// for PySide6 import:
+// import Qt5Compat.GraphicalEffects
+
 
 Item {
     id: root
@@ -14,16 +15,16 @@ Item {
     signal clicked
     signal pressed
 
-    DropShadow {
-        id: dropShadow
-        opacity: 0.5
-        radius: 6
-        anchors.fill: rectangle
-        source: rectangle
-        verticalOffset: 4
-        horizontalOffset: 4
-        color: Qt.darker(parent.bgColor, 1.5)
-    }
+    // DropShadow {
+    //     id: dropShadow
+    //     opacity: 0.5
+    //     radius: 6
+    //     anchors.fill: rectangle
+    //     source: rectangle
+    //     verticalOffset: 4
+    //     horizontalOffset: 4
+    //     color: Qt.darker(parent.bgColor, 1.5)
+    // }
 
     Rectangle {
         id: rectangle
@@ -80,10 +81,10 @@ Item {
                 color: Qt.lighter(parent.bgColor, 1.25)
             }
 
-            PropertyChanges {
-                target: dropShadow
-                visible: false
-            }
+            // PropertyChanges {
+            //     target: dropShadow
+            //     visible: false
+            // }
         },
         State {
             name: "disabled"
@@ -96,10 +97,10 @@ Item {
                 anchors.rightMargin: 2
             }
 
-            PropertyChanges {
-                target: dropShadow
-                visible: false
-            }
+            // PropertyChanges {
+            //     target: dropShadow
+            //     visible: false
+            // }
 
             PropertyChanges {
                 target: mouseArea

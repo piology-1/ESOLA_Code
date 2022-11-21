@@ -1,8 +1,5 @@
 import QtQuick 2.15
-import Qt5Compat.GraphicalEffects
-// import QtGraphicalEffects 1.15
-// import GraphicalEffects 1.15
-// import QtGraphicalEffects 1.15
+// import Qt5Compat.GraphicalEffects
 
 Item {
     id: root
@@ -20,14 +17,14 @@ Item {
         fillMode: Image.PreserveAspectFit
     }
 
-    ColorOverlay {
-        id: colorOverlay
-        visible: false
-        anchors.fill: parent
-        source: parent
-        color: "#ffffff"
-        opacity: 0.33
-    }
+    // ColorOverlay {
+    //     id: colorOverlay
+    //     visible: false
+    //     anchors.fill: parent
+    //     source: parent
+    //     color: "#ffffff"
+    //     opacity: 0.33
+    // }
 
     MouseArea {
         id: mouseArea
@@ -53,10 +50,10 @@ Item {
             name: "down"
             when: mouseArea.pressed
 
-            PropertyChanges {
-                target: colorOverlay
-                visible: true
-            }
+            // PropertyChanges {
+            //     target: colorOverlay
+            //     visible: true
+            // }
 
             PropertyChanges {
                 target: image

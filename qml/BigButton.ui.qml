@@ -1,6 +1,5 @@
 import QtQuick 2.15
-// import QtGraphicalEffects 1.15
-import Qt5Compat.GraphicalEffects
+// import Qt5Compat.GraphicalEffects
 
 Item {
     id: root
@@ -18,16 +17,16 @@ Item {
     signal clicked
     signal pressed
 
-    DropShadow {
-        id: dropShadow
-        opacity: 0.5
-        radius: 3 * d.scaleFactor
-        anchors.fill: rectangle
-        source: rectangle
-        verticalOffset: 1.5 * d.scaleFactor
-        horizontalOffset: 1.5 * d.scaleFactor
-        color: Qt.darker(parent.bgColor, 1.5)
-    }
+    // DropShadow {
+    //     id: dropShadow
+    //     opacity: 0.5
+    //     radius: 3 * d.scaleFactor
+    //     anchors.fill: rectangle
+    //     source: rectangle
+    //     verticalOffset: 1.5 * d.scaleFactor
+    //     horizontalOffset: 1.5 * d.scaleFactor
+    //     color: Qt.darker(parent.bgColor, 1.5)
+    // }
 
     Rectangle {
         id: rectangle
@@ -51,14 +50,14 @@ Item {
         anchors.leftMargin: 24 * d.scaleFactor
     }
 
-    ColorOverlay {
-        id: colorOverlay
-        visible: false
-        anchors.fill: image
-        source: image
-        color: "#ffffff"
-        opacity: 0.2
-    }
+    // ColorOverlay {
+    //     id: colorOverlay
+    //     visible: false
+    //     anchors.fill: image
+    //     source: image
+    //     color: "#ffffff"
+    //     opacity: 0.2
+    // }
 
     Text {
         id: label
@@ -108,15 +107,15 @@ Item {
                 color: Qt.lighter(parent.bgColor, 1.25)
             }
 
-            PropertyChanges {
-                target: dropShadow
-                visible: false
-            }
+            // PropertyChanges {
+            //     target: dropShadow
+            //     visible: false
+            // }
 
-            PropertyChanges {
-                target: colorOverlay
-                visible: true
-            }
+            // PropertyChanges {
+            //     target: colorOverlay
+            //     visible: true
+            // }
         },
         State {
             name: "disabled"
@@ -127,15 +126,15 @@ Item {
                 color: "#aaaaaa"
             }
 
-            PropertyChanges {
-                target: dropShadow
-                visible: false
-            }
+            // PropertyChanges {
+            //     target: dropShadow
+            //     visible: false
+            // }
 
-            PropertyChanges {
-                target: colorOverlay
-                visible: true
-            }
+            // PropertyChanges {
+            //     target: colorOverlay
+            //     visible: true
+            // }
 
             PropertyChanges {
                 target: mouseArea
