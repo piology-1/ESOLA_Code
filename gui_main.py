@@ -14,11 +14,11 @@
     
     Errors:
     QQmlApplicationEngine failed to load component
-    file:///C:/Users/piusg/OneDrive/Studienarbeit_ESOLA/03_Programmcode/Test_Repo/Solartankstelle.qml:11:5: Type App unavailable
-    file:///C:/Users/piusg/OneDrive/Studienarbeit_ESOLA/03_Programmcode/Test_Repo/qml/App.qml:3:1: Type AppScreen unavailable
-    file:///C:/Users/piusg/OneDrive/Studienarbeit_ESOLA/03_Programmcode/Test_Repo/qml/AppScreen.ui.qml:21:5: Type TopBar unavailable
-    file:///C:/Users/piusg/OneDrive/Studienarbeit_ESOLA/03_Programmcode/Test_Repo/qml/TopBar.ui.qml:28:5: Type ImageButton unavailable
-    file:///C:/Users/piusg/OneDrive/Studienarbeit_ESOLA/03_Programmcode/Test_Repo/qml/ImageButton.ui.qml:2:1: module "Qt5Compat.GraphicalEffects" is not installed
+    file:///C:/Users/.../Solartankstelle.qml:11:5: Type App unavailable
+    file:///C:/Users/.../qml/App.qml:3:1: Type AppScreen unavailable
+    file:///C:/Users/.../qml/AppScreen.ui.qml:21:5: Type TopBar unavailable
+    file:///C:/Users/.../qml/TopBar.ui.qml:28:5: Type ImageButton unavailable
+    file:///C:/Users/.../qml/ImageButton.ui.qml:2:1: module "Qt5Compat.GraphicalEffects" is not installed
 
     So the Issue is caused by a function named "ColorOverlay" in the qml source code at ImageButton.ui.qml
 '''
