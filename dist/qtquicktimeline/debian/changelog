@@ -1,0 +1,5 @@
+qtquicktimeline-opensource-src (5.15.2-0) UNRELEASED; urgency=low
+
+  * Unofficial, Debian did not package this until Qt6
+
+ -- UNMAINTAINED <>  Thu, 30 Jun 2022 18:44:32 +0200

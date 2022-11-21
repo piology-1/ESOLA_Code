@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 128 128"
+   xml:space="preserve"
+   id="svg39"
+   width="128"
+   height="128"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs43"><filter
+     style="color-interpolation-filters:sRGB"
+     id="filter1108"
+     x="-0.030719999"
+     y="-0.030719999"
+     width="1.06144"
+     height="1.06144"><feGaussianBlur
+       stdDeviation="0.32768"
+       id="feGaussianBlur1110" /></filter><linearGradient
+     id="SVGID_1_"
+     gradientUnits="userSpaceOnUse"
+     x1="1.4118291"
+     y1="26.984243"
+     x2="1.4118291"
+     y2="1.4118291"
+     gradientTransform="matrix(4.5229085,0,0,4.5229085,-0.2226833,-0.2226833)"
+     spreadMethod="pad">
+				<stop
+   offset="6.846893e-08"
+   style="stop-color:#B30014"
+   id="stop9" />
+				
+				
+				
+				<stop
+   offset="1"
+   style="stop-color:#E6071F"
+   id="stop17" />
+			</linearGradient></defs>
+<style
+   type="text/css"
+   id="style2">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:url(#SVGID_1_);}
+	.st3{fill:url(#SVGID_00000090263770694407464230000003926192412358479544_);}
+	.st4{fill:#FFFFFF;}
+</style>
+
+<path
+   class="st2"
+   d="M 14.2,1.4 C 7.2,1.4 1.4,7.1 1.4,14.2 1.4,21.3 7.1,27 14.2,27 21.2,27 27,21.3 27,14.2 27,7.1 21.2,1.4 14.2,1.4 Z"
+   id="path1048"
+   style="opacity:0.667;mix-blend-mode:normal;fill:#510000;fill-opacity:1;filter:url(#filter1108)"
+   transform="matrix(4.5229085,0,0,4.5229085,1.5518068,1.5518069)" /><path
+   class="st2"
+   d="m 64.002617,6.1093886 c -31.660359,0 -57.8932284,25.7805784 -57.8932284,57.8932284 0,32.112651 25.7805794,57.893233 57.8932284,57.893233 31.66036,0 57.893223,-25.780583 57.893223,-57.893233 0,-32.11265 -26.232863,-57.8932284 -57.893223,-57.8932284 z"
+   id="path20"
+   style="fill:url(#SVGID_1_);fill-opacity:1;stroke-width:4.52291" /><g
+   id="g4207"
+   transform="translate(1.6416925,1.3550465)"><path
+     class="st4"
+     d="M 93.116704,38.676157 38.389511,93.40335 c -1.809164,1.809163 -4.9752,1.809163 -6.784363,0 v 0 c -1.809164,-1.809164 -1.809164,-4.9752 0,-6.784363 L 86.332341,31.891794 c 1.809163,-1.809164 4.975199,-1.809164 6.784363,0 v 0 c 1.809163,1.809163 1.809163,4.975199 0,6.784363 z"
+     id="path33"
+     style="stroke-width:4.52291" /><path
+     class="st4"
+     d="m 38.389511,31.891794 54.727193,54.727193 c 1.809163,1.809163 1.809163,4.975199 0,6.784363 v 0 c -1.809164,1.809163 -4.9752,1.809163 -6.784363,0 L 31.605148,38.676157 c -1.809164,-1.809164 -1.809164,-4.9752 0,-6.784363 v 0 c 1.809163,-1.809164 4.975199,-1.809164 6.784363,0 z"
+     id="path35"
+     style="stroke-width:4.52291" /></g>
+
+</svg>

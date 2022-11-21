@@ -1,0 +1,7 @@
+backend/*.py
+fonts/*.ttf
+images/*.png
+qml/
+compartments.json
+gui_main.py
+Solartankstelle.qml

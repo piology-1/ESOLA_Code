@@ -1,0 +1,51 @@
+locks.json
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.qmlc
+*.jsc
+
+*.qmlproject.user
+*.qmlproject.user.*
+*.pyproject.user
+*.pyproject.user.*
+.idea/
+.spyderproject
+.spyproject
+
+
+
+### Nerviger Müll
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# Linux
+.directory
+.Trash-*
