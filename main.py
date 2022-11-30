@@ -7,7 +7,17 @@ import usb.util
 # type: <class 'usb.core.Device'>
 RFID_device = usb.core.find(idVendor=0x072f, idProduct=0x2200)
 
-print(RFID_device.configurations())
+# print(RFID_device.configurations()) # <CONFIGURATION 1: 400 mA>,)
+print(RFID_device.get_active_configuration())
+print(type(RFID_device.get_active_configuration()))
+
+
+RFID_device.reset()
+
+# bEndpointAddress     0x81  EP 1 IN
+bEndpointAddress = 0x81
+data = RFID_device.read(endpoint=bEndpointAddress, size_or_buffer=9)
+print(data)
 
 
 # RFID_device = usb.core.find(idVendor=0x072f, idProduct=0x2200)
