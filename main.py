@@ -5,6 +5,7 @@ import usb.util
 #   idProduct          0x2200 ACR122U
 
 RFID_device = usb.core.find(idVendor=0x072f, idProduct=0x2200)
+RFID_device
 
 
 # RFID_device = usb.core.find(idVendor=0x072f, idProduct=0x2200)
