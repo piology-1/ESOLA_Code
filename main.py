@@ -4,8 +4,10 @@ import usb.util
 #   idVendor           0x072f Advanced Card Systems, Ltd
 #   idProduct          0x2200 ACR122U
 
+# type: <class 'usb.core.Device'>
 RFID_device = usb.core.find(idVendor=0x072f, idProduct=0x2200)
-print(type(RFID_device))
+
+print(RFID_device.configurations())
 
 
 # RFID_device = usb.core.find(idVendor=0x072f, idProduct=0x2200)
